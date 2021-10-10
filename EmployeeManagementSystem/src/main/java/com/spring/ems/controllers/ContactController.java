@@ -33,6 +33,8 @@ public class ContactController {
 
 	/*
 	 * getContactInfo is used to get details of an employee
+	 * @body contact
+	 * @return ResponseEntity of String
 	 */
 
 	@GetMapping("/getdetails")
@@ -51,6 +53,8 @@ public class ContactController {
 
 	/*
 	 * CreateContactInfo is used to add details of a new employee
+	 * @body contact
+	 * @return ResponseEntity of String
 	 */
 
 	@PostMapping("/postdetails")
@@ -66,6 +70,8 @@ public class ContactController {
 
 	/*
 	 * updateContactInfo is used to update details of an existing employee
+	 * @body contact
+	 * @return ResponseEntity of String
 	 */
 
 	@PutMapping("/updatedetails")
@@ -93,6 +99,8 @@ public class ContactController {
 
 	/*
 	 * deletContactInfo is used to delete details of an employee
+	 * @body contact
+	 * @return ResponseEntity of String
 	 */
 
 	@DeleteMapping("/contactdelete")
